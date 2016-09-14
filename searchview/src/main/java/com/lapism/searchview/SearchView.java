@@ -21,6 +21,7 @@ import android.speech.RecognizerIntent;
 import android.support.annotation.ColorInt;
 import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.DefaultItemAnimator;
@@ -44,6 +45,7 @@ import java.util.List;
 
 
 @SuppressWarnings({"WeakerAccess", "unused"})
+@CoordinatorLayout.DefaultBehavior(FloatingSearchViewBehaviour.class)
 public class SearchView extends FrameLayout implements View.OnClickListener {
 
     public static final int ANIMATION_DURATION = 300;
