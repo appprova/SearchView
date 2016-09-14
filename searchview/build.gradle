@@ -33,7 +33,7 @@ android {
         }
     }
     true
-}
+}asBO
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
@@ -47,12 +47,12 @@ dependencies {
 }
 
 publish {
-    userOrg = 'lapism'
-    groupId = 'com.lapism'
+    userOrg = 'appprova'
+    groupId = 'com.appprova'
     artifactId = 'searchview'
-    publishVersion = '3.4.1'
+    publishVersion = version = project.properties['BINTRAY_VERSION'] ?: '1.0.0'
     desc = 'SearchView Library'
-    website = 'https://github.com/lapism/SearchView'
+    website = 'https://github.com/appprova/SearchView'
 }
 
 // build first
