@@ -27,6 +27,10 @@ public class FloatingSearchViewBehaviour extends CoordinatorLayout.Behavior<Sear
     private RecyclerView recyclerView;
     private boolean isScrolling;
 
+    public FloatingSearchViewBehaviour() {
+        super();
+    }
+
     @SuppressWarnings("unused")
     public FloatingSearchViewBehaviour(Context context, AttributeSet attrs) {
         super(context, attrs);

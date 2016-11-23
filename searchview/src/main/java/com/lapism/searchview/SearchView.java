@@ -101,6 +101,8 @@ public class SearchView extends FrameLayout implements View.OnClickListener {
     private boolean mShouldClearOnOpen = true;
 
     // ---------------------------------------------------------------------------------------------
+
+
     public SearchView(Context context) {
         this(context, null);
     }
